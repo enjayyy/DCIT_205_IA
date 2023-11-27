@@ -1,0 +1,147 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width", initial-scale="1.0" >
+    <title>UG| Department of Computer Science</title>
+
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style2.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">   
+    <p></p>
+</head>
+<body> 
+
+    <section class="sub-head">
+        <nav>
+    <a  href="index.html"><img src="images/comScience_logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu() "></i>
+                <ul>
+                    <li><a href="index.html"> HOME </a></li>
+                    <li><a  href="About.html"> ABOUT </a></li>
+                    <li><a href="Course.html"> COURSES</a></li>
+                    <li><a  href="Groups.html"> GROUPS </a></li>
+                    <li><a   href="Events.html"> EVENTS </a></li>
+                    <li><a href="FAQ's.html"> FAQ </a></li>
+                    <li><a class="active"  href="Resources.html"> RESOURCES </a></li>
+                    <li><a  href="Lecture Halls.html"> LECTURE HALLS </a></li>
+                    <li><a href="Staff Profile.html"> STAFF PROFILE </a></li>
+                    <li><a href="contact.html"> CONTACTS </a></li>
+                </ul>
+                <input type="checkbox" id="check"> 
+                <label for="check" class="checkbtn">
+                
+                </label>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu() "></i>
+         </nav> 
+         
+            
+            <h1>Resources</h1>
+        
+         </div>
+
+        </section>
+<!---------------------about content------->
+<br><br><br>
+<section class="campus">
+<h1>Facilities Available to Students </h1>
+            <p>Welcome to the vibrant and dynamic Computer Science Department at Ghana's premium <br>
+                University. Our commitment to fostering a rich learning environment is reflected in <br>
+                the diverse array of resources we offer to our students. Whether you're diving into the<br>
+                 world of algorithms, exploring the possibilities of artificial intelligence, or securing<br>
+                  the digital frontier, our department
+                  is equipped to support your academic journey.  </p>
+<br><br><br>
+        <div class="row">
+
+            <div class="campus-col">
+                <img src="images/libbb.jpg">
+                <div class="layer">
+                    <h3>Library and Learning Resources </h3>
+                </div>
+            </div>
+                    <div class="campus-col">
+                        <img src="images/wires.jpg">
+                        <div class="layer">
+                            <h3>Cloud Computing and Virtualization </h3>
+                        </div>
+            </div>
+                        <div class="campus-col">
+                            <img src="images/labbb.jpg">
+                            <div class="layer">
+                                <h3>Cutting-Edge Computer Labs </h3>
+                         </div>
+            </div>
+         </div>   
+
+         <div class="row">
+            
+            <div class="campus-col">
+                <img src="images/networkin.jpg">
+                <div class="layer">
+                    <h3>Versatile Servers and Networking Infrastructure </h3>
+                </div>
+            </div>
+                    <div class="campus-col">
+                        <img src="images/library.jpg">
+                        <div class="layer">
+                            <h3>Research Facilities </h3>
+                        </div>
+            </div>
+                        <div class="campus-col">
+                            <img src="images/supp.jpg">
+                            <div class="layer">
+                                <h3>Supportive Community </h3>
+                         </div>
+            </div>
+         </div>   
+</section>
+
+
+
+
+
+       
+    <script>
+       var navLinks=document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+</script>
+<!--footer-->
+<footer>
+<div class="footer-content">
+    <div class="footer-section">
+        <h3>Contact Us</h3>
+        <h3><b> and Email</b></h3>
+        <p>Email: dcs@ug.edu.gh</p>
+        <p>Phone: +233 502 382 035
+            +233 559 145 698 </p> </div>
+
+
+    <div class="footer-section">
+        <h3>Follow Us</h3>
+        <p>Stay connected on social media</p>
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Twitter</a>
+        <a href="#" target="_blank">Instagram</a>
+    </div>
+
+</div>
+<div class="copyr">
+<p>
+        &copy; 2023 University. All rights reserved.
+</p>
+</div>
+</footer>
+</body>
+</html>
